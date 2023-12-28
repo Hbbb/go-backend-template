@@ -11,8 +11,6 @@ import (
 	"go.uber.org/zap"
 )
 
-// Expose a corba command that starts the API server
-
 func APICmd(ctx context.Context) *cobra.Command {
 	var port int
 
